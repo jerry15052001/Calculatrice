@@ -1,0 +1,61 @@
+<div style="text-align:center">
+    <h1>
+      {{title}}
+    </h1>
+    <p></p>
+    <input type="number" name="num1" [(ngModel)]="num1">
+    <input type="number" name="num2" [(ngModel)]="num2">
+    <br><br>
+    <button (click)="add()">Add</button>
+    <button (click)="sub()">Sub</button>
+    <button (click)="multiply()">Multiply</button>
+    <button (click)="divide()">Divide</button>
+    <br>
+    <h3>Resultat {{num3}}</h3>
+
+</div> 
+
+
+
+<div class="container" >
+  <h1 style= "text-align:center"> {{title}} </h1>
+  <div class="container-cal">
+    <div class="buttonrow">
+      <textarea class="textarea"></textarea>
+    </div>
+
+    <div class="buttonrow">
+      <button class="btn">%</button>
+      <button class="btn">AC</button>
+      <button class="btn">DEL</button>
+      <button class="btn">/</button>
+    </div>
+
+    <div class="buttonrow">
+      <button class="btn">7</button>
+      <button class="btn">8</button>
+      <button class="btn">9</button>
+      <button class="btn">*</button>
+    </div>
+
+    <div class="buttonrow">
+      <button class="btn">4</button>
+      <button class="btn">5</button>
+      <button class="btn">6</button>
+      <button class="btn">-</button>
+    </div>
+
+    <div class="buttonrow">
+      <button class="btn">1</button>
+      <button class="btn">2</button>
+      <button class="btn">3</button>
+      <button class="btn">+</button>
+    </div>
+
+    <div class="buttonrow">
+      <button class="btn">0</button>
+      <button class="btn">,</button>
+      <button  style=" height: 60px; width: 120px">=</button>
+    </div>
+  </div>
+</div> 

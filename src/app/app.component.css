@@ -1,0 +1,67 @@
+ .container {
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between ;
+     height: 50vh;
+     width: 40vw;
+     margin: auto;
+     border: solid;
+     padding: 0.5%;
+     
+ }
+
+ .screen {
+    display:flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+    flex: 2;
+    height: 25%;
+    width: 100%;
+    font-size: 4rem;
+    line-height: 4rem;
+    margin-top: 0%;
+    margin-bottom: 1%;
+    background-color: #8A9799;
+    color: #fff;
+    text-align: right;
+    font-family: "Helvetica Neue",Helvetica,Arial;
+
+  }
+
+ .container-cal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin : 0 auto;
+    height: 80%;
+    width: 100%;
+ }
+ 
+ .buttonrow {
+    display: flex;
+    justify-content: space-between;
+    height : 18%;
+    width : 100%;
+}
+
+ .btn {
+     width: 24%;
+     height: 100%;
+ }
+
+  .AC {
+    width: 49.5%;
+    height: 100%;
+  }
+
+  .equal {
+    width: 49.5%;
+    height: 100%;
+    
+  }
+
+ .textarea {
+     width: 230px;
+ }
